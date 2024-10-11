@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: black;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#instructionBanner {
+  position: absolute;
+  bottom: 100px; /* Ajusta la posición vertical si es necesario */
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: #FFFFFF; /* Letras en blanco */
+  font-size: 18px;
+  font-family: 'Press Start 2P', cursive; /* Usa la fuente 'Press Start 2P' */
+  text-shadow: 0 0 5px #FFFFFF; /* Sombra suave blanca */
+  border: 2px solid #eaf0e9; /* Borde verde neón */
+  max-width: 400px; /* Limitar el ancho del banner */
+  text-align: center; /* Centrar el texto */
+}
+.container {
+  /*
+  set max-width and max-height to canvas 
+  width/height respectively
+  */
+  max-width: 640px;
+  max-height: 480px;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  outline: 1px solid white;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
